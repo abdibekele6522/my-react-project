@@ -92,6 +92,14 @@ function HomePage() {
     ))}
   </div>
 </section>
+
+
+{/* footer  */}
+
+<section className="portfolio-end">
+  <h2>Thanks for Visiting 🚀</h2>
+  <p>Building the future with code & AI.</p>
+</section>
     </>
   );
 }

@@ -59,7 +59,7 @@ ${formData.idea}
   <a href="https://t.me/@abdibekel" target="_blank" rel="noreferrer">
     <img src={telegramIcon} alt="Telegram" className="social-icon" />
   </a>
-  <a href="https://www.tiktok.com/@yourusername" target="_blank" rel="noreferrer">
+  <a href="https://www.tiktok.com/@gonup_1" target="_blank" rel="noreferrer">
     <img src={tiktokIcon} alt="TikTok" className="social-icon" />
   </a>
   <a href="https://www.facebook.com/yourusername" target="_blank" rel="noreferrer">
@@ -116,7 +116,10 @@ ${formData.idea}
       </div>
 
       <br />
-      <Link to="/">⬅ Back to Home</Link>
+      <button className="back-btn">
+  <Link to="/">⬅ Back to Home</Link>
+</button>
+      
     </div>
   );
 }

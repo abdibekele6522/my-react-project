@@ -453,3 +453,65 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+
+.back-btn {
+  background: linear-gradient(135deg,#2b2688, #3b82f6, rgb(59, 56, 56), rgb(144, 220, 144));
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.back-btn a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.back-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.back-btn:active {
+  transform: scale(0.95);
+}
+
+
+
+
+.portfolio-end {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.portfolio-end h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-end p {
+  max-width: 600px;
+  margin: 0 auto 15px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.signature {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #38bdf8;
+}
