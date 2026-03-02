@@ -7,7 +7,7 @@ import telegramIcon from "./assets/telegram.png";
 import tiktokIcon from "./assets/tiktok.png";
 import facebookIcon from "./assets/facebook.png";
 import youtubeIcon from "./assets/youtube.png";
-
+import linkedinIcon from "./assets/linkedin.png";
 function HomePage() {
 
   // Function to scroll to contact section
@@ -122,8 +122,12 @@ function HomePage() {
               <a href="https://www.facebook.com/yourusername" target="_blank" rel="noreferrer">
                 <img src={facebookIcon} alt="Facebook" className="social-icon" />
               </a>
-              <a href="https://www.youtube.com/channel/yourchannelid" target="_blank" rel="noreferrer">
+              <a href="https://www.youtube.com/@AbdBurka" target="_blank" rel="noreferrer">
                 <img src={youtubeIcon} alt="YouTube" className="social-icon" />
+              </a>
+
+              <a href="https://www.linkedin.com/mylinkedinlink" target="_blank" rel="noreferrer">
+                <img src={linkedinIcon} alt="Linkedin" className="social-icon" />
               </a>
             </div>
 
